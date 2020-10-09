@@ -86,6 +86,38 @@ p{
 }
 
 /*CONTACT PAGE FORM*/
+.contact {
+    margin: 0 80px;
+}
+
+input, select, textarea {
+    width: 100%; /* Full width */
+    padding: 15px; /* Some padding */
+    border: 1px solid gray; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.contact p {
+    text-align: left;
+    font-weight: bold;
+}
+
 .contact textarea {
     height: 250px;
+}
+
+#contact-button {
+    background-color: rgba(0, 102, 204, 1.0);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    width: 30%;
 }
