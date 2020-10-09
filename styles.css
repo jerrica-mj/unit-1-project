@@ -1,7 +1,7 @@
 * {
     margin: 0; /*let content go out to edges*/
     padding: 0;
-    border: 1px dotted black; /*toggle borders around all elements during dev*/
+    /*border: 1px dotted black; !*toggle borders around all elements during dev*!*/
 }
 
 /*BODY*/
@@ -37,7 +37,7 @@ nav a {
     font-size: 26px;
     font-weight: bold;
     text-decoration: none;
-    padding: 27px 20px; /*space around link*/
+    padding: 28px 100px; /*space around link*/
     margin: 0 10px; /*space btwn links*/
 }
 
@@ -46,14 +46,17 @@ nav a {
     color: white;
 }
 
-.logo {
+.page:visited {
+    color: #333333;
+}
+
+#logo {
+    margin-top: 0;
+}
+
+#logo img {
     border: none;
 }
-
-.logo img {
-    margin-top: 10px;
-}
-
 
 /*MAIN BODY*/
 .body {
@@ -70,8 +73,19 @@ h2 {
 p{
     font-size: 18px;
     line-height: 1.2;
+    margin: 0 15px;
+    text-align: center;
+}
+
+#soon {
+    font-size: 20px;
 }
 
 .body span {
     font-weight: bold;
+}
+
+/*CONTACT PAGE FORM*/
+.contact textarea {
+    height: 250px;
 }
