@@ -41,7 +41,7 @@ nav a {
     margin: 0 10px; /*space btwn links*/
 }
 
-.page:hover {
+.page:hover, .page:visited:hover {
     background-color: rgba(0, 102, 204, 0.7);
     color: white;
 }
